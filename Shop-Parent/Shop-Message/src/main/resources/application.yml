@@ -1,0 +1,24 @@
+server:
+  port: 8763
+  context-path: /message
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/
+spring:
+   application:
+      name: message
+   activemq:
+      broker-url: tcp://localhost:61616
+      user: admin
+      password: admin
+   mail:
+       host: smtp.163.com
+       username: xiaoqianittest@163.com
+       password: DGTQZCESAMGOWPVT
+       enable:  true
+       smtp:
+         auth: true
+         starttls:
+          enable: true
+          required: true

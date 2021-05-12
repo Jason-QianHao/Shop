@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\java\笔试面试\java练级\22在线购物支付网站Shop\Project202101\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1241136830.index
+253857038.index
+694585387.index
+4225803135.index
+2991633626.index
+1932764934.index
