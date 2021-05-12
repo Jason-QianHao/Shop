@@ -2277,3 +2277,148 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2021-04-30 16:29:28.468
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.monitorView" id and the "Remote Monitor" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+!SESSION 2021-05-12 15:52:02.335 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN_#Hans
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/qianhao/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/qianhao/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-05-12 15:52:28.114
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-12 15:52:28.114
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4088c5e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e757f39,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-05-12 15:52:32.880
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-05-12 15:52:32.880
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:12.008
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:13.975
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:14.277
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:15.209
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:15.932
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:17.040
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:17.631
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:18.438
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:20.884
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:21.445
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:21.878
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:22.295
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:22.955
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:23.769
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:24.493
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:24.977
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:25.509
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:26.159
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:26.810
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:27.414
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:28.153
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:29.499
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:30.210
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:31.088
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:32.849
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:55:56.014
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:02.453
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:03.044
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:03.400
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:03.673
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:04.018
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:04.436
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:04.829
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:05.321
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:06.096
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:07.250
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-12 15:56:46.429
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details

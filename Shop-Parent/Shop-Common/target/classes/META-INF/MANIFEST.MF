@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
+Built-By: qianhao
+Build-Jdk: 15.0.2
 Implementation-Title: Shop-Common
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: qh404
 Implementation-Vendor-Id: com.qian
-Build-Jdk: 1.8.0_131
-Implementation-URL: http://projects.spring.io/spring-boot/Shop-Parent/
- Shop-Common/
-Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/Shop-Parent/Sh
+ op-Common/
+Created-By: Maven Integration for Eclipse
 

@@ -209,3 +209,295 @@
 2021-02-22 12:45:57,045 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-22 12:45:57,046 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-04-30 16:29:28,381 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-12 15:52:32,890 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-12 15:55:11,415 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Common:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Common/pom.xml.
+2021-05-12 15:55:12,007 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:12,699 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:12,705 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:12,706 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:12,710 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:12,711 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:13,599 [Worker-16: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qian:Shop-api:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/pom.xml.
+2021-05-12 15:55:13,966 [Worker-16: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:14,276 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:14,393 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:14,397 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:14,397 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:14,401 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:14,401 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:14,945 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-EurekaServer:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-EurekaServer/pom.xml.
+2021-05-12 15:55:15,209 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:15,391 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:15,391 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:15,425 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:15,428 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:15,429 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:15,667 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Message:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Message/pom.xml.
+2021-05-12 15:55:15,931 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:15,967 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:16,257 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:16,258 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:16,260 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:16,262 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:16,263 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:17,040 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:17,150 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:17,150 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:17,152 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:17,155 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:17,156 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:17,631 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:17,715 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:17,750 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:17,751 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:17,752 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:17,755 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:17,755 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:18,200 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qian:Shop-api:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/pom.xml.
+2021-05-12 15:55:18,437 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:18,774 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Message:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Message/pom.xml.
+2021-05-12 15:55:18,818 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:18,972 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Common:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Common/pom.xml.
+2021-05-12 15:55:19,027 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qian:Shop-Parent:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/pom.xml.
+2021-05-12 15:55:19,179 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-EurekaServer:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-EurekaServer/pom.xml.
+2021-05-12 15:55:19,216 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qian:Shop-api:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/pom.xml.
+2021-05-12 15:55:19,370 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Message:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Message/pom.xml.
+2021-05-12 15:55:19,385 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:19,555 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Common:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Common/pom.xml.
+2021-05-12 15:55:20,884 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:21,105 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:21,106 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:21,107 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:21,110 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:21,110 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:21,445 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:21,539 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:21,539 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:21,540 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:21,542 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:21,542 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:21,877 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:21,979 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:22,014 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:22,015 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:22,015 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:22,016 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:22,017 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:22,294 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:22,724 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-api-item:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/Shop-api-item/pom.xml.
+2021-05-12 15:55:22,955 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:23,131 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:23,132 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:23,132 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:23,135 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:23,135 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:23,563 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Item:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Item/pom.xml.
+2021-05-12 15:55:23,768 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:23,828 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:23,829 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:24,023 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:24,024 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:24,040 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:24,046 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:24,046 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:24,492 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:24,977 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:25,078 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:25,078 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:25,078 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:25,079 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:25,080 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:25,508 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:25,607 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:25,607 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:25,631 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:25,632 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:25,633 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:25,635 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:25,635 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:25,948 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-api-member:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/Shop-api-member/pom.xml.
+2021-05-12 15:55:26,159 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:26,323 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:26,324 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:26,324 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:26,328 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:26,328 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:26,810 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:26,910 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:26,911 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:26,911 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:26,912 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:26,912 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:27,183 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Mobile-Web:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Mobile-Web/pom.xml.
+2021-05-12 15:55:27,413 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:27,459 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:27,459 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:27,460 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:28,153 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:28,189 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:28,190 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:28,190 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:28,829 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:28,830 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:28,833 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-05-12 15:55:28,838 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:28,838 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:29,499 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:30,209 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:30,317 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:30,317 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:30,318 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:30,351 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:30,353 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:30,356 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-05-12 15:55:30,439 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:30,440 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:30,810 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-member:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-member/pom.xml.
+2021-05-12 15:55:31,088 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:31,143 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:31,144 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:31,306 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:31,306 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:31,307 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:31,309 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:31,309 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:32,848 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:32,943 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:32,944 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:32,974 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:32,975 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:55:32,976 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:32,978 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:55:32,978 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:55:55,650 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-12 15:55:55,857 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qian:Shop-api:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/pom.xml.
+2021-05-12 15:55:56,013 [Worker-22: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:55:56,283 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Message:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Message/pom.xml.
+2021-05-12 15:55:56,303 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:56,506 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-api-member:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/Shop-api-member/pom.xml.
+2021-05-12 15:55:56,636 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-member:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-member/pom.xml.
+2021-05-12 15:55:56,660 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:56,660 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:56,789 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Common:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Common/pom.xml.
+2021-05-12 15:55:56,826 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qian:Shop-Parent:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/pom.xml.
+2021-05-12 15:55:56,946 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-EurekaServer:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-EurekaServer/pom.xml.
+2021-05-12 15:55:57,072 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Item:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Item/pom.xml.
+2021-05-12 15:55:57,080 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:57,080 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:57,275 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-api-item:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-api/Shop-api-item/pom.xml.
+2021-05-12 15:55:57,389 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.qian:Shop-Mobile-Web:0.0.1-SNAPSHOT @ /Users/qianhao/Jason/Software/Git/Shop/Shop/Shop-Parent/Shop-Mobile-Web/pom.xml.
+2021-05-12 15:55:57,399 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:57,399 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:57,399 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:58,622 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:55:58,623 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:55:58,623 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:55:59,430 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-api-item/src/main/java
+2021-05-12 15:55:59,431 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-api-item/src/main/resources
+2021-05-12 15:55:59,431 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-api-item/src/main/resources
+2021-05-12 15:55:59,432 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-api-item/src/test/java
+2021-05-12 15:55:59,432 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-api-item/src/test/resources
+2021-05-12 15:55:59,650 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-api-member/src/main/java
+2021-05-12 15:55:59,651 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-api-member/src/main/resources
+2021-05-12 15:55:59,651 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-api-member/src/main/resources
+2021-05-12 15:55:59,651 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-api-member/src/test/java
+2021-05-12 15:55:59,651 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-api-member/src/test/resources
+2021-05-12 15:55:59,822 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Common/src/main/java
+2021-05-12 15:55:59,822 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Common/src/main/resources
+2021-05-12 15:55:59,822 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Common/src/main/resources
+2021-05-12 15:55:59,823 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Common/src/test/java
+2021-05-12 15:55:59,823 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Common/src/test/resources
+2021-05-12 15:55:59,981 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-EurekaServer/src/main/java
+2021-05-12 15:55:59,981 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-EurekaServer/src/main/resources
+2021-05-12 15:55:59,981 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-EurekaServer/src/main/resources
+2021-05-12 15:55:59,982 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-EurekaServer/src/test/java
+2021-05-12 15:55:59,982 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-EurekaServer/src/test/resources
+2021-05-12 15:56:00,118 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Item/src/main/java
+2021-05-12 15:56:00,118 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Item/src/main/resources
+2021-05-12 15:56:00,118 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Item/src/main/resources
+2021-05-12 15:56:00,119 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Item/src/test/java
+2021-05-12 15:56:00,119 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Item/src/test/resources
+2021-05-12 15:56:00,250 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-member/src/main/java
+2021-05-12 15:56:00,250 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-member/src/main/resources
+2021-05-12 15:56:00,250 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-member/src/main/resources
+2021-05-12 15:56:00,251 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-member/src/test/java
+2021-05-12 15:56:00,251 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-member/src/test/resources
+2021-05-12 15:56:00,452 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Message/src/main/java
+2021-05-12 15:56:00,453 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Message/src/main/resources
+2021-05-12 15:56:00,453 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Message/src/main/resources
+2021-05-12 15:56:00,453 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Message/src/test/java
+2021-05-12 15:56:00,453 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Message/src/test/resources
+2021-05-12 15:56:00,587 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Mobile-Web/src/main/java
+2021-05-12 15:56:00,587 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Mobile-Web/src/main/resources
+2021-05-12 15:56:00,588 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Mobile-Web/src/main/resources
+2021-05-12 15:56:00,589 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shop-Mobile-Web/src/test/java
+2021-05-12 15:56:00,589 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shop-Mobile-Web/src/test/resources
+2021-05-12 15:56:01,901 [Worker-22: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Shop-Mobile-Web
+2021-05-12 15:56:01,903 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2021-05-12 15:56:02,453 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:02,541 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:02,542 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:02,542 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:02,544 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:02,545 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:03,044 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:03,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:03,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:56:03,138 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:03,139 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:03,139 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:03,400 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:03,455 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:56:03,477 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:03,478 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:56:03,479 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:03,480 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:03,480 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:03,673 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:04,018 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:04,436 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:04,545 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:04,545 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:04,545 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:04,546 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:04,547 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:04,828 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:04,889 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:56:04,890 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:56:04,909 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:04,910 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:56:04,911 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:04,912 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:04,912 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:05,320 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:05,453 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:05,453 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:05,454 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:05,455 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:05,455 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:06,096 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:06,181 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:56:06,182 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-05-12 15:56:06,182 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:56:06,222 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:06,223 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:56:06,224 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-05-12 15:56:06,308 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:06,309 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:06,309 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Shop-Mobile-Web
+2021-05-12 15:56:06,310 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Shop-Mobile-Web
+2021-05-12 15:56:06,317 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:07,249 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 15:56:07,348 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-05-12 15:56:07,348 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-05-12 15:56:07,401 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:07,401 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 15:56:07,403 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:07,404 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 15:56:07,405 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-12 15:56:46,428 [Worker-17: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-05-12 16:00:16,007 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 16:00:16,011 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-12 16:00:16,015 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-05-12 16:00:16,020 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-12 16:00:16,020 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -2,5 +2,18 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619771367018_1" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619771367023_2" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1620806100819_3" label="Shop" name="Shop">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-Parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-Item" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-Common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-member" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-Message" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-Mobile-Web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-EurekaServer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-api-item" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-api-member" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1611466603702_0" label="窗口工作集" name="Aggregate for window 1611466603702"/>
+<mruList name="Shop"/>
 </workingSetManager>
