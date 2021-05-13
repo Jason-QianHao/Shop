@@ -126,7 +126,8 @@ public class UserService {
 			// 登录成功后，存储redis
 			String loginToken  = TokenUtil.getToken();
 			try {
-				redisService.setStr(loginToken, user.getOpenId(), Constants.USER_TOKEN_TERMVALIDITY);
+				redisService.redisSetString(loginToken, user.getOpenId());
+				redisService.expire(loginToken, Constants.USER_TOKEN_TERMVALIDITY);
 				log.info("UserService/login, 登录成功，账号：{}，loginToken:{}", name, loginToken);
 				return ResultApi.success(loginToken);
 			} catch (Exception e) {

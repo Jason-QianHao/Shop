@@ -3,6 +3,7 @@ package com.qian.controller;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -48,22 +49,23 @@ public class ShoppingCartController extends BaseController{
 					}
 				}
 				// 查询成功,且这里有物品
-				String itemsJson = showCartObject.getString(Constants.HTTP_RES_CODE_DATA);
-				JSONObject cart = JSON.parseObject(itemsJson);
-				String itemsIdStr = cart.getString(Constants.CART);
-				List<Long> itemsIdList = JSON.parseArray(itemsIdStr, Long.class);
+				Map<String, List<Long>> itemMap = (Map<String, List<Long>>)showCartObject.get(Constants.HTTP_RES_CODE_DATA);
+				List<Long> itemsIdListJSARRAY = itemMap.get(Constants.CART); // 拿到 购物车list，这里只能拿到JsonArray，里面是Integer类型的
+				List<Long> itemsIdList = JSON.parseArray(JSON.toJSONString(itemsIdListJSARRAY), Long.class);
 				try {
 					List<ItemEntity> itemList = new ArrayList<>();
-					for(Long id : itemsIdList) {
-						// 根据每个id查询物品信息
-						String itemByIdJson = itemFeign.getItemById(id);
-						JSONObject itemObject = JSON.parseObject(itemByIdJson);
-						if(!itemObject.getInteger(Constants.HTTP_RES_CODE_NAME).equals(Constants.HTTP_RES_CODE_200)) {
-							String msg = itemObject.getString(Constants.HTTP_RES_CODE_MSG);
-							log.info("ShoppingCartController/shoppingCart, 没有该ItemId{}的商品，" + msg);
-						}else {
-							ItemEntity item = itemObject.getObject(Constants.HTTP_RES_CODE_DATA, ItemEntity.class);
-							itemList.add(item);
+					if(itemsIdList != null) {
+						for(Long id : itemsIdList) {
+							// 根据每个id查询物品信息
+							String itemByIdJson = itemFeign.getItemById(id);
+							JSONObject itemObject = JSON.parseObject(itemByIdJson);
+							if(!itemObject.getInteger(Constants.HTTP_RES_CODE_NAME).equals(Constants.HTTP_RES_CODE_200)) {
+								String msg = itemObject.getString(Constants.HTTP_RES_CODE_MSG);
+								log.info("ShoppingCartController/shoppingCart, 没有该ItemId{}的商品，" + msg);
+							}else {
+								ItemEntity item = itemObject.getObject(Constants.HTTP_RES_CODE_DATA, ItemEntity.class);
+								itemList.add(item);
+							}
 						}
 					}
 					req.setAttribute("itemList", itemList);

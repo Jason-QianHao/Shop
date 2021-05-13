@@ -19,7 +19,7 @@ spring:
       name: shop
    redis:
       host: localhost
-      password: 123457
+      password: 123456
       port: 6379
       pool:
          max-idle: 100

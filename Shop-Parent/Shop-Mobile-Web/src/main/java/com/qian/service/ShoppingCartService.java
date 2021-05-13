@@ -2,6 +2,7 @@ package com.qian.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -41,7 +42,8 @@ public class ShoppingCartService {
 			return ResultApi.error("查询购物车失败");
 		}
 		// 用户身份有效，继续查询相关购物信息
-		String itemsJson = (String) redisService.get(openId);
+		Map<String, List<Long>> itemsJson = (Map<String, List<Long>>) redisService.getHash(openId); // 拿到 map key:"cart"
+																									// value: List<Long>
 		if (itemsJson == null) {
 			// redis存储的购物车信息过期了
 			log.info("ShoppingCartService/showCart, 购物车信息过期或没有物品");
@@ -68,34 +70,33 @@ public class ShoppingCartService {
 			return ResultApi.error("查询购物车失败");
 		}
 		// 用户身份有效，继续查询相关购物信息
-		String itemsJson = (String) redisService.get(openId);
+		Map<String, List<Long>> itemsJson = (Map<String, List<Long>>) redisService.getHash(openId); // 拿到 map key:"cart"
+																									// value: List<String>
 		log.info("ShoppingCartService/addCartByItemId, 查询用户购物车信息成功: " + itemsJson);
 		List<Long> itemsIdList;
-		if (itemsJson == null) {
+//			JSONObject cart = JSON.parseObject(itemsJson);
+		itemsIdList = itemsJson.get(Constants.CART); // 拿到 购物车list
+		if (itemsIdList == null) {
 			// redis存储的购物车信息过期了
 			log.info("ShoppingCartService/addCartByItemId, 购物车信息过期或没有物品");
 			itemsIdList = new ArrayList<>();
-			itemsIdList.add(itemId);
-		} else {
-			JSONObject cart = JSON.parseObject(itemsJson);
-			String itemsIdStr = cart.getString(Constants.CART);
-			itemsIdList = JSON.parseArray(itemsIdStr, Long.class);
+//			itemsIdList.add(itemId);
+		}else {
 			for (Long id : itemsIdList) {
 				if (id == itemId) {
 					log.info("ShoppingCartService/addCartByItemId, 该物品已经在购物车中");
 					return ResultApi.error("该物品已经在购物车中");
 				}
 			}
-			itemsIdList.add(itemId);
 		}
-		JSONObject newcart = new JSONObject();
-		newcart.put(Constants.CART, JSON.toJSONString(itemsIdList));
-		redisService.setStr(openId, newcart.toJSONString(), Constants.USER_TOKEN_TERMVALIDITY);
+		itemsIdList.add(itemId);
+		itemsJson.put(Constants.CART, itemsIdList);
+		redisService.setHash(openId, itemsJson);
+		redisService.expire(openId, Constants.USER_TOKEN_TERMVALIDITY);
 		log.info("ShoppingCartService/addCartByItemId, itemId为{}的商品加入购物车成功", itemId);
 		return ResultApi.success();
 
 	}
-
 
 	/*
 	 * 按照id删除物品
@@ -113,22 +114,23 @@ public class ShoppingCartService {
 				return ResultApi.error("删除物品失败");
 			}
 			// 用户身份有效，继续查询相关购物信息
-			String itemsJson = (String) redisService.get(openId);
+			Map<String, List<Long>> itemsJson = (Map<String, List<Long>>) redisService.getHash(openId); // 拿到 map
+																										// key:"cart"
+																										// value:
+																										// List<Long>
 			log.info("ShoppingCartService/deleteById, 查询用户购物车信息成功: " + itemsJson);
 			if (itemsJson == null) {
 				// redis存储的购物车信息过期了
 				log.info("ShoppingCartService/deleteById, 购物车信息过期或没有物品");
 				return ResultApi.error("物品已经过期");
 			}
-			JSONObject cart = JSON.parseObject(itemsJson);
-			String itemsIdStr = cart.getString(Constants.CART);
-			List<Long> itemsIdList = JSON.parseArray(itemsIdStr, Long.class);
+			List<Long> itemsIdList = itemsJson.get(Constants.CART); // 拿到 购物车list
 			itemsIdList.remove(id);
 			log.info("ShoppingCartService/deleteById, 删除id为{}的物品成功", id);
 			// 刷新Redis
-			JSONObject newcart = new JSONObject();
-			newcart.put(Constants.CART, JSON.toJSONString(itemsIdList));
-			redisService.setStr(openId, newcart.toJSONString(), Constants.USER_TOKEN_TERMVALIDITY);
+			itemsJson.put(Constants.CART, itemsIdList);
+			redisService.setHash(openId, itemsJson);
+			redisService.expire(openId, Constants.USER_TOKEN_TERMVALIDITY);
 			log.info("ShoppingCartService/deleteById, itemId为{}的商品加入购物车成功", id);
 			return ResultApi.success();
 		} catch (Exception e) {
@@ -137,7 +139,7 @@ public class ShoppingCartService {
 			return ResultApi.error("删除物品失败");
 		}
 	}
-	
+
 	/*
 	 * 清空购物车
 	 */
@@ -154,7 +156,7 @@ public class ShoppingCartService {
 				return ResultApi.error("删除物品失败");
 			}
 			// 用户身份有效，继续查询相关购物信息
-			redisService.delete(openId);
+			redisService.removeKey(openId);
 			log.info("ShoppingCartService/deleteAll, 清空购物车信息成功");
 			return ResultApi.success();
 		} catch (Exception e) {
@@ -163,14 +165,14 @@ public class ShoppingCartService {
 			return ResultApi.error("清空购物车信息失败");
 		}
 	}
-	
+
 	/*
 	 * 判断用户信息是否过期
 	 */
 	public String checkOpenId(String loginToken) {
 		try {
 			String openId = null;
-			openId = (String) redisService.get(loginToken);
+			openId = (String) redisService.redisGetString(loginToken);
 			log.info("ShoppingCartService/showCart, 查询redis成功,openId: " + openId);
 			return openId;
 		} catch (Exception e) {
