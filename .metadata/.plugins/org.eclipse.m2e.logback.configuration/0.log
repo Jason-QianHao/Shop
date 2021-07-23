@@ -824,3 +824,86 @@
 2021-05-13 11:14:36,144 [Worker-79: Launching ShopApp] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier null to /Shop-api-item/target/classes
 2021-05-13 11:14:36,144 [Worker-79: Launching ShopApp] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier null to /Shop-Common/target/classes
 2021-07-04 19:02:33,243 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-22 14:44:45,959 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-22 14:45:21,421 [Worker-5: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:43,372 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:43,940 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:43,948 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:43,949 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:43,953 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:43,953 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:45,160 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:45,284 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:45,284 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-22 14:49:45,302 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:45,304 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:45,304 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:46,041 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:46,169 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-07-22 14:49:46,210 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:46,211 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-22 14:49:46,213 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:46,215 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:46,216 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:46,772 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:47,505 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:47,672 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:47,672 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:47,672 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:47,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:47,675 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:48,264 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:48,404 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-07-22 14:49:48,404 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-07-22 14:49:48,453 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:48,453 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-22 14:49:48,455 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:48,459 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:48,459 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:49,025 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:49,175 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:49,175 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:49,176 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:49,179 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:49,179 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:49,921 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:50,127 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-07-22 14:49:50,128 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-07-22 14:49:50,128 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-07-22 14:49:50,211 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:50,212 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-22 14:49:50,217 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-07-22 14:49:50,375 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:50,375 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:51,989 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:52,149 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-07-22 14:49:52,149 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-07-22 14:49:52,200 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:52,200 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-22 14:49:52,202 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:52,206 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 14:49:52,206 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 14:49:53,568 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 14:49:54,037 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 16:09:41,569 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-22 16:09:46,944 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-22 16:09:47,240 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-07-22 16:09:47,243 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-07-22 16:09:47,243 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-07-22 16:09:47,819 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 16:09:47,827 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-22 16:09:47,852 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-07-22 16:09:47,861 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-22 16:09:47,862 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-22 16:09:49,864 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-23 20:45:22,496 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-23 20:45:26,272 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-07-23 20:45:26,494 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-member: com.qian:Shop-api-member:0.0.1-SNAPSHOT with classifier  to /Shop-api-member/target/classes
+2021-07-23 20:45:26,496 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-api-item: com.qian:Shop-api-item:0.0.1-SNAPSHOT with classifier  to /Shop-api-item/target/classes
+2021-07-23 20:45:26,497 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop-Common: com.qian:Shop-Common:0.0.1-SNAPSHOT with classifier  to /Shop-Common/target/classes
+2021-07-23 20:45:26,847 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-23 20:45:26,852 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-23 20:45:26,867 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 79 resources
+2021-07-23 20:45:26,872 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-23 20:45:26,872 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-23 20:45:28,171 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.alibaba:druid:jar:1.0.14 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
